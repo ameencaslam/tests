@@ -97,7 +97,6 @@ int main()
             rem=temp0%base;
             temp1=(temp1*10)+rem;
             temp0/=base;
-            printf("rem=%d temp1=%ld temp0=%d\n",rem,temp1,temp0);
         }
      
         while(temp1!=0)
